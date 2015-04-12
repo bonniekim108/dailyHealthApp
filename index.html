@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Daily Healthy Habits</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href='css/style.css' type='text/css' media='screen' charset='utf-8>'
+  </head>
+  <body>
+    <h2>Daily Health Tracker</h2>
+    <div class="container">
+      <p>
+        <label for="new-event">Add Event</label><input id="new-event" type="text"><button>Add</button>
+      </p>
+
+      <h4>Healthy Steps for Today</h4>
+      <ul id="todays-goals">
+        <li><input type="radio"><label>Take at least 8,000 steps</label><input type="text"><button class="yes">Yes</button><button class="nope">Nope</button></li>
+        <li><input type="radio"><label>Drink at least 8 Cups Water</label><input type="text"><button class="yes">Yes</button><button class="nope">Nope</button></li>
+        <li><input type="radio"><label>Sleep 7 hours</label><input type="text"><button class="yes">Yes</button><button class="nope">Nope</button></li>
+      </ul>
+
+      <h4>Successful Steps</h4>
+      <ul id="completed-goals">
+        <li><input type="radio" checked<label><label>Went to the gym</label><input type="text"><button class="yes">Yes</button><button class="nope">Nope</button></li>
+      </ul> 
+    </div>
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
